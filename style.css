@@ -1,0 +1,86 @@
+/* Hacker-like theme with dark background and neon-green text */
+body {
+    font-family: 'VT323', monospace; /* Terminal-style hacker font */
+    background-color: #0a0a0a; /* Black background for hacker theme */
+    color: #00ff00; /* Neon green text */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container styling to resemble a terminal window */
+.container {
+    background-color: #111; /* Darker background inside container */
+    border: 2px solid #00ff00; /* Neon green border */
+    border-radius: 12px;
+    padding: 20px;
+    width: 400px;
+    box-shadow: 0 0 15px rgba(0, 255, 0, 0.7); /* Glowing green shadow */
+    box-sizing: border-box;
+}
+
+/* Title styling for hacker tool */
+h1 {
+    font-size: 24px;
+    text-align: center;
+    color: #00ff00;
+    margin-bottom: 20px;
+}
+
+/* Form group layout */
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+/* Label text styling */
+label {
+    font-size: 14px;
+    color: #00ff00;
+    margin-bottom: 5px;
+    display: block;
+    width: 100%;
+}
+
+/* Input, select, and button styling for terminal feel */
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid #00ff00; /* Green border */
+    border-radius: 6px;
+    background-color: #000; /* Dark background */
+    color: #00ff00; /* Green text */
+    font-size: 14px;
+    outline: none;
+}
+
+/* Button styling to resemble a hacking tool launch button */
+button {
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #00ff00;
+    color: #000;
+    box-shadow: 0 0 15px #00ff00, 0 0 30px #00ff00; /* Glowing neon effect */
+}
+
+/* Results box styling */
+#result {
+    margin-top: 20px;
+    background-color: #111;
+    color: #00ff00;
+    padding: 10px;
+    border: 1px solid #00ff00;
+    border-radius: 6px;
+    font-size: 12px;
+}
